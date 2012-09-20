@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Wocao</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    
+    
+
+    <string name="hi_label">Hi!</string>
+    <string name="bye_label">Bye!</string>
+    <string name="yo_label">Yo!</string>
+    <string name="button_message_template">
+    You clicked the \'%s\' Widget.</string>
+    
+    <string name="image_button_1_image">
+    the ic_launcher.png image</string>
+    <string name="image_button_message_template">
+    You clicked the ImageButton that displays %s.</string>
+
+</resources>

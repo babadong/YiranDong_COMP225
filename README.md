@@ -36,14 +36,36 @@ whatever (can be tracks, pictures or videos) fit the keywords.
 By far I only make "Videos" and "About" buttons work. To make "About" work is simple. I just kept the original About.java
 and About.xml in res, and updated about_text in strings.xml to be the text introducing the album.
 
-To make "Videos" work is a bit more complicated. I have to firstly define a Video class that 
+To make "Videos" work, I firstly define a Video class that opens a new contentview and starts a video. Then I referred
+to this class in the main activity Wocao.java. Shown as below:
+
+private void openNewVideoDialog() {
+		      new AlertDialog.Builder(this)
+		           .setTitle(R.string.video_title)
+		           .setItems(R.array.videolist,
+		            new DialogInterface.OnClickListener() {
+		               public void onClick(DialogInterface dialoginterface,
+		                     int i) {
+		                  startVideo(i);
+		               }
+		            })
+		           .show();
+		   }
+
+		   /** Start a new game with the given difficulty level */
+		   private void startVideo(int i) {
+		      Intent intent = new Intent(this, Video.Play(i));
+		      startActivity(intent);
+		   }
+
+Therefore according to the following command, whenever the user clicks on the video button, a menu will appear and 
+allow the user to choose whichever he wants to view. 
+
+case R.id.video_button:
+openNewVideoDialog();
+break;
+
+--------------------------------------------
+By far I'm still working on other functions. 
 
 
-
-
-
-
-
-
-Oppa Gangnam Style
----------------------------

@@ -19,6 +19,7 @@ Also I added two buttons to the original four and reset the labels of all six of
 <Button
 android:id="@+id/playlist_button"
 ...>
+
 I updated the strings.xml also to define strings such as playlist_label 
 and playlist_title. 
 
@@ -66,6 +67,7 @@ case R.id.video_button:
 openNewVideoDialog();
 break;
 
+Future work
 --------------------------------------------
 By far I'm still working on other functions. 
 

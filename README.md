@@ -40,7 +40,7 @@ To make "Videos" work, I firstly define a Video class that opens a new contentvi
 to this class in the main activity Wocao.java. Shown as below:
 
 /** Start a video */
-private void openNewVideoDialog() {
+                  private void openNewVideoDialog() {
 		      new AlertDialog.Builder(this)
 		           .setTitle(R.string.video_title)
 		           .setItems(R.array.videolist,

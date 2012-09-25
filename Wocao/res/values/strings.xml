@@ -6,16 +6,24 @@
     <string name="title_activity_button">ButtonActivity</string>
     
     
-
-    <string name="hi_label">Hi!</string>
-    <string name="bye_label">Bye!</string>
-    <string name="yo_label">Yo!</string>
-    <string name="button_message_template">
-    You clicked the \'%s\' Widget.</string>
+    <string name="main_title">OK Computer</string>
+    <string name="playlist_label">Playlist</string>
+    <string name="picture_label">Pictures</string>
+    <string name="video_label">Videos</string>
+    <string name="about_label">About</string>
+    <string name="search_label">Search</string>
+    <string name="exit_label">Exit</string>    
+    <string name="about_text">This album...</string>
     
-    <string name="image_button_1_image">
-    the ic_launcher.png image</string>
-    <string name="image_button_message_template">
-    You clicked the ImageButton that displays %s.</string>
+    <string name="video_title">Videos</string>   
+    <string name="about_title">About OK Computer</string>
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">Wocao settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>    
+    <string name="music_summary">Play Background Music</string>   
 
+    <string name="mv_label">Music Video</string>  
+    <string name="interview_label">Interview</string>
+    <string name="feature_label">Feature</string>   
 </resources>

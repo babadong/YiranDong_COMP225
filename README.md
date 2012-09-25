@@ -18,9 +18,8 @@ Also I added two buttons to the original four and reset the labels of all six of
 
 <Button
 android:id="@+id/playlist_button"
-android:layout_width="fill_parent"
-android:layout_height="wrap_content"
-android:text="@string/playlist_label" />
+...>
+
 
 
 

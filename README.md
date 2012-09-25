@@ -39,6 +39,7 @@ and About.xml in res, and updated about_text in strings.xml to be the text intro
 To make "Videos" work, I firstly define a Video class that opens a new contentview and starts a video. Then I referred
 to this class in the main activity Wocao.java. Shown as below:
 
+/** Start a video */
 private void openNewVideoDialog() {
 		      new AlertDialog.Builder(this)
 		           .setTitle(R.string.video_title)
@@ -52,7 +53,7 @@ private void openNewVideoDialog() {
 		           .show();
 		   }
 
-		   /** Start a new game with the given difficulty level */
+
 		   private void startVideo(int i) {
 		      Intent intent = new Intent(this, Video.Play(i));
 		      startActivity(intent);
